@@ -285,6 +285,101 @@
   <a href="https://api.whatsapp.com/send?phone=27998139695" target="_blank">
     <i class="fab fa-whatsapp"></i> Nosso WhatsApp
   </a>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+div svg{
+  text-align: center;
+  text-emphasis: none;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 1200px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 24px;
+  border-radius: 2px;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin: -50px 5px 20px -10px; /* Ajuste de margens para espaçamento */
+}
+
+.icon:first-child {
+  margin-right: 20px; /* Espaçamento entre o primeiro ícone e o segundo */
+}
+
+path{
+  color: #f3f3f3;
+  width: 200%;
+  height: 200%;
+}
+
+.carousel-inner h2 {
+  font-size: 100px;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  color: #78452b;
+  text-shadow: 2px 2px 2px  #d9d9d9;
+}
+
+body {
+    height: 100%;
+    padding: 0%;
+    background-image: linear-gradient( to bottom, rgb(44, 44, 44), rgb(114, 107, 94), rgb(44, 44, 44));
+    background-image: linear-gradient(rgb(44, 44, 44), rgb(114, 107, 94), rgb(44, 44, 44)); 
+    margin-left: left; margin-right: right; width: 150em;
+}
+
+ input {
+  width: 0%;
+  height: 25px;
+  position:20%;
+  left: 50%;
+ }
+
+table{
+background-color: #f3f3f3;
+padding: 55;
+text-align: center;
+}
+
+.balao-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+
+}
+
+.balao-whatsapp a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.balao-whatsapp i {
+  margin-right: 20px;
+}
+
+
+
 </div>
 
 <p style="margin-left: 400px; color: #fff; margin-top: 10px;"> Desenvolvido por: Danielly Gonçalves Santos / Todos os direitos reservados</p>
